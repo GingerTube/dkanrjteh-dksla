@@ -1,2 +1,20 @@
 print("Welcome to math problem generator. This is for yr1-2 students")
 print("If you have difficulties with basic equations, this is your chance to practice!")
+
+
+
+import random
+x = random.randint(1, 50)
+y = random.randint(1, 50)
+
+print(x, "+", y, "+")
+
+z = input()
+
+i = int(z)
+
+if x + y == i:
+  print("correct")
+else:
+  print("try again")
+  return False
